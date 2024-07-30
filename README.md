@@ -1,15 +1,15 @@
 # YESeg-OPT-SAR
 ### *Introduction*
 
-**YESeg-OPT-SAR** is a sufficiently annotated high-resolution remote sensing dataset for land use classification, which combines high-resolution RGB optical images with SAR images at a resolution of **0.5** meters.
+- **YESeg-OPT-SAR** is a sufficiently annotated high-resolution remote sensing dataset for land use classification, which combines high-resolution RGB optical images with SAR images at a resolution of **0.5** meters.
 
 ### *Details*
-YESeg-OPT-SAR uses high-resolution optical and SAR images from Google Earth L18 products imaged during 2010/10/21-2016/8/25 with a spatial resolution of 0.5 m.
+- YESeg-OPT-SAR uses high-resolution optical and SAR images from Google Earth L18 products imaged during 2010/10/21-2016/8/25 with a spatial resolution of 0.5 m.
 
-It contains 2231 pairs of images of the same area with a size of 256×256. The dataset contains two study areas, one covers an area in the longitude range of 122.836°E-122.869°E and the latitude range of 45.105°N-45.133°N, and the other with a longitude range of 110.135°E-110.160°E and latitude range of 34.593°N-34.626°N,which covering a wide range of different terrain and vegetation.The location of the study area is shown on the map below.
+- It contains 2231 pairs of images of the same area with a size of 256×256. The dataset contains two study areas, one covers an area in the longitude range of 122.836°E-122.869°E and the latitude range of 45.105°N-45.133°N, and the other with a longitude range of 110.135°E-110.160°E and latitude range of 34.593°N-34.626°N,which covering a wide range of different terrain and vegetation.The location of the study area is shown on the map below.
 ![exmple.png](./dataset.png)
 
-The images in the dataset are fully labeled with pixel-level categories, including background, bare ground, vegetation, trees, houses, water, roads, and others, where the label values and category percentages are shown in the table below.
+- The images in the dataset are fully labeled with pixel-level categories, including background, bare ground, vegetation, trees, houses, water, roads, and others, where the label values and category percentages are shown in the table below.
 
 | Label | Name | Percent(%) |
 | :-----:| :----: | :----: |
@@ -22,7 +22,7 @@ The images in the dataset are fully labeled with pixel-level categories, includi
 |6 |roads |3.88|
 |7 |other |0.11|
 
-##*Dataset Organization*
+## *Dataset Organization*
 The dataset are organized as:
 ```
 ├─YESeg-OPT-SAR dataset
